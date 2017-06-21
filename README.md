@@ -10,5 +10,4 @@ Steps to run the program:
 2. rosun canny_edge_my_face canny_edge_node
 
 This would open two windows one with the camera view and one with the canny edge detector as can be seen in the image 
-result_without_rqt.png. You can also view the result in rqt and for that go to the terminal and type rqt and when the window
-subscribe to the topic /edge_detector/raw_image. Open the image viewer in the rqt and it will show the edge detector result.
+result_without_rqt.png. You can also view the result in rqt and for that go to the terminal and type rqt and when the rqt window opens subscribe to the topic /edge_detector/raw_image, then open the image viewer in the rqt and it will show the edge detector result.
